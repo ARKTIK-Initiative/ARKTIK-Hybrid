@@ -1,7 +1,3 @@
-# Rewriting the file creation code as the state was reset.
-
-# Creating a downloadable README.md file for the ARKTIK Hybrid Licensed Repo description based on the conversation summary
-arktik_readme_content = """
 # Welcome to the ARKTIK Experience!
 
 ---
@@ -116,11 +112,4 @@ As an ARKTIK contributor, you’re part of something bigger—a global network d
 Whether you’re here to build, learn, collaborate, or just enjoy the ride, know this: **You are seen. You are valued. You belong.**
 
 **Welcome to ARKTIK—let’s make the future, together.**
-"""
 
-# Writing the content to a new .md file
-arktik_readme_path = "/mnt/data/ARKTIK_Hybrid_Repo_Readme.md"
-with open(arktik_readme_path, "w") as file:
-    file.write(arktik_readme_content)
-
-arktik_readme_path
